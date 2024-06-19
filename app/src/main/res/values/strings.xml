@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Aunirun</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Phone</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">用户验证</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="omen_result">本程序免费供学习和交流使用，请于下载后24小时内删除，请勿传播。使用本程序造成的一切后果由使用者负责。</string>
+    <string name="action_save_user">保存用户</string>
+    <string name="action_edit_user">编辑</string>
+    <string name="action_change_map">切换</string>
+    <string name="action_load_map">导入</string>
+    <string name="text_add_user">添加新用户</string>
+    <string name="action_check_run_status">检查</string>
+    <string name="action_start_run">RUN</string>
+    <string name="text_delete_user">是否删除该已保存的账号？</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_okay">确定</string>
+    <string name="page_about">关于</string>
+    <string name="about_lang">Language</string>
+    <string name="about_daytime">主题</string>
+    <string name="about_text_aboutauthor">关于作者</string>
+    <string name="about_text_thanks">鸣谢</string>
+    <string name="about_text_checknew">检查更新</string>
+    <string name="start_startTitle">Start</string>
+    <string name="config_Title">配置</string>
+    <string name="action_add_user">添加</string>
+    <string name="config_users_tips">Tips:点击用户选项卡可以删除该用户哦</string>
+    <string name="thanks_thanks_text">鸣谢</string>
+    <string name="thanks_total_text">本项目的完成离不开以前学长们的努力。甚至可以说，本项目的大部分逻辑功能早已被完成，而本人只是在外观和便捷上点缀和完善。</string>
+    <string name="thanks_autorun_title">autorun：</string>
+    <string name="author_total_text">想着做一个更加方便的一键式校园跑，于是就有了本Aunirun的诞生。如果觉得好用，到项目地址打个星呗(｡･ω･｡)ﾉ☆</string>
+    <string name="author_github_main_page">主页：https://github.com/Naneph</string>
+    <string name="author_program_addr">项目地址</string>
+    <string name="login_tips_text">验证信息：</string>
+</resources>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.configPage.ConfigFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@color/background_hui"
+        android:layout_height="match_parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:background="@color/all_white"
+            app:layout_constraintTop_toTopOf="parent"
+
+            tools:layout_editor_absoluteX="0dp">
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="56dp"
+                android:background="@color/background_hui"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/addUser_btn"
+                android:layout_width="57dp"
+                android:layout_height="39dp"
+                android:layout_marginTop="56dp"
+                android:layout_marginEnd="16dp"
+                android:background="@color/transparent"
+                android:text="@string/action_add_user"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/pageTitle_view"
+                android:layout_width="96dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/config_Title"
+                android:textSize="30sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ListView
+                android:id="@+id/userList_view"
+                android:layout_width="320dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/shape_radius"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/config_users_tips"
+                android:textSize="10sp"
+                android:textColor="@color/orange_trans"
+                app:layout_constraintStart_toStartOf="@+id/userList_view"
+                app:layout_constraintTop_toBottomOf="@+id/userList_view"
+                tools:ignore="SmallSp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="342dp"
+            android:elevation="20dp"
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="1dp">
+
+            <ImageView
+                android:id="@+id/map_view"
+                android:layout_width="320dp"
+                android:layout_height="210dp"
+                android:layout_marginBottom="44dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:src="@tools:sample/backgrounds/scenic" />
+
+            <Button
+                android:id="@+id/changeMap_btn"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="36dp"
+                android:background="@drawable/btn_normol"
+                android:text="@string/action_change_map"
+                app:layout_constraintBottom_toTopOf="@+id/map_view"
+                app:layout_constraintEnd_toEndOf="@+id/map_view"
+                app:layout_constraintHorizontal_bias="0.153"
+                app:layout_constraintStart_toStartOf="@+id/map_view" />
+
+            <Button
+                android:id="@+id/inputMap_btn"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="36dp"
+                android:background="@drawable/btn_normol"
+
+                android:text="@string/action_load_map"
+                app:layout_constraintBottom_toTopOf="@+id/map_view"
+                app:layout_constraintEnd_toEndOf="@+id/map_view"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="@+id/map_view" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="320dp"
+                android:layout_height="1dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/background_hui"
+                app:layout_constraintBottom_toTopOf="@+id/map_view"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

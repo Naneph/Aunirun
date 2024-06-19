@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="InconsistentArrays">
+    <string-array name="data">
+        <item>5km级</item>
+        <item>10km级</item>
+        <item>4km级</item>
+        <item>3km级</item>
+        <item>1km级</item>
+    </string-array>
+</resources>
