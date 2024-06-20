@@ -90,7 +90,7 @@
             android:background="@drawable/shape_radius"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:text="Github："
+            android:text="Github：github.com/Naneph/Aunirun"
             android:textSize="15sp"
             app:layout_constraintStart_toStartOf="@+id/textView12"
             app:layout_constraintTop_toBottomOf="@+id/textView12" />
@@ -104,7 +104,7 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
 
-            android:text="Gitee："
+            android:text="Gitee：gitee.com/naneph/aunirun"
             android:textSize="15sp"
             app:layout_constraintStart_toStartOf="@+id/textView9"
             app:layout_constraintTop_toBottomOf="@+id/textView9" />
@@ -127,7 +127,7 @@
             android:id="@+id/textView12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="36dp"
             android:background="@drawable/shape_radius"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
